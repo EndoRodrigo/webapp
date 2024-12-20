@@ -4,7 +4,7 @@ Este repositorio requiere que tengas instalado Java y Apache Tomcat para poder e
 
 ## Requisitos previos
 
-- Sistema operativo: Linux, macOS o Windows.
+- Sistema operativo: Windows.
 - Acceso a la terminal o línea de comandos.
 
 ---

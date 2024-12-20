@@ -13,40 +13,9 @@ Este repositorio requiere que tengas instalado Java y Apache Tomcat para poder e
 
 Para ejecutar aplicaciones Java, necesitas tener instalado el **JDK (Java Development Kit)**. A continuación se describen los pasos para instalarlo en diferentes sistemas operativos.
 
-### En Linux (Ubuntu/Debian):
-
-1. Abre la terminal.
-2. Actualiza el índice de paquetes:
-    ```bash
-    sudo apt update
-    ```
-3. Instala el JDK:
-    ```bash
-    sudo apt install openjdk-17-jdk
-    ```
-    Nota: Puedes cambiar `openjdk-17-jdk` por la versión que prefieras.
-
-4. Verifica la instalación de Java:
-    ```bash
-    java -version
-    ```
-
-### En macOS:
-
-1. Abre la terminal.
-2. Instala Java usando [Homebrew](https://brew.sh/):
-    ```bash
-    brew install openjdk@17
-    ```
-
-3. Verifica la instalación de Java:
-    ```bash
-    java -version
-    ```
-
 ### En Windows:
 
-1. Dirígete al [sitio web de Oracle](https://www.oracle.com/java/technologies/javase-downloads.html) o usa [AdoptOpenJDK](https://adoptopenjdk.net/) para descargar el JDK.
+1. Dirígete al [sitio web de Oracle](https://www.oracle.com/java/technologies/javase-downloads.html) o usa [OpenJDK](https://jdk.java.net/23/) para descargar el JDK.
 2. Descarga e instala el archivo `.exe` correspondiente a tu sistema operativo.
 3. Durante la instalación, asegúrate de seleccionar la opción para agregar Java al **PATH** del sistema.
 4. Verifica la instalación:

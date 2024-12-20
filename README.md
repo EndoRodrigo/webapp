@@ -48,7 +48,7 @@ Para ejecutar aplicaciones Java, necesitas tener instalado el **JDK (Java Develo
 
 # Glosario de Términos de Jakarta EE 
 
-Jakarta EE
+#### Jakarta EE
 El sucesor de Java EE (Java Platform, Enterprise Edition), Jakarta EE es un conjunto de especificaciones para desarrollar aplicaciones empresariales en Java. Jakarta EE es gestionado por la Eclipse Foundation desde que Oracle lo donó en 2017.
 
 Servlet

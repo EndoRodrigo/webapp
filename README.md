@@ -18,7 +18,7 @@ Para ejecutar aplicaciones Java, necesitas tener instalado el **JDK (Java Develo
 1. Dirígete al [sitio web de Oracle](https://www.oracle.com/java/technologies/javase-downloads.html) o usa [OpenJDK](https://jdk.java.net/23/) para descargar el JDK.
 2. Descarga e instala el archivo `.exe` correspondiente a tu sistema operativo.
 3. Durante la instalación, asegúrate de seleccionar la opción para agregar Java al **PATH** del sistema.
-4. Verifica la instalación:
+4. Verifica la instalación JDK 23.0.1:
     - Abre el `Símbolo del sistema` y ejecuta:
         ```bash
         java -version
@@ -32,7 +32,7 @@ Para ejecutar aplicaciones Java, necesitas tener instalado el **JDK (Java Develo
 
 1. Dirígete al [sitio web oficial de Apache Tomcat](https://tomcat.apache.org/download-90.cgi).
 2. Descarga el archivo ZIP o EXE para Windows.
-3. Extrae el archivo ZIP a la ubicación deseada, por ejemplo, `C:\apache-tomcat-9.0`.
+3. Extrae el archivo ZIP a la ubicación deseada, por ejemplo, `C:\apache-tomcat-11.0`.
 4. Abre una terminal (`cmd`) y navega hasta el directorio `bin` de Tomcat:
     ```bash
     cd C:\apache-tomcat-9.0\bin

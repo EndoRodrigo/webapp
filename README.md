@@ -35,7 +35,7 @@ Para ejecutar aplicaciones Java, necesitas tener instalado el **JDK (Java Develo
 3. Extrae el archivo ZIP a la ubicación deseada, por ejemplo, `C:\apache-tomcat-11.0`.
 4. Abre una terminal (`cmd`) y navega hasta el directorio `bin` de Tomcat:
     ```bash
-    cd C:\apache-tomcat-9.0\bin
+    cd C:\apache-tomcat-11.0\bin
     ```
 5. Inicia Tomcat ejecutando:
     ```bash

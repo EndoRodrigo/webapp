@@ -1,0 +1,13 @@
+        try(PrintWriter out = resp.getWriter()){
+            out.println("<!DOCTYPE html>");
+            out.println("<html lang=\"en\">");
+            out.println("<head>");
+            out.println("<meta charset=\"UTF-8\">");
+            out.println("<title>Cabecera HTTP Request</title>");
+            out.println("</head>");
+            out.println(" <body>");
+            out.println("<h1>Cabecera HTTP request!</h1>");
+            out.println(" </body>");
+            out.println(" </html>");
+
+        }

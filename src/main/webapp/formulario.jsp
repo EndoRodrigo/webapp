@@ -1,14 +1,14 @@
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <%@page import="java.util.Map"%>
 <%
-Map<String, String> errores = (Map<String, String>)request.getAttribute("errores");
+Map<String, String> errores = (Map<String, String>) request.getAttribute("errores");
 %>
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <title>Formulario de usuarios</title>
-    <link href="<%=request.getContextPath()%>/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 </head>
 <body>
 <h3>Formulario de usuarios</h3>
@@ -23,20 +23,18 @@ if(errores != null && errores.size()>0){
 </ul>
 <%}%>
 <div class="px-5">
-    <form action="/webapp-form/registro" method="post">
+    <form action="/webapp/registro" method="post">
 
         <div class="row mb-3">
             <label for="username" class="col-form-label col-sm-2">Usuario</label>
-            <div class="col-sm-4">
-                <input type="text" name="username" id="username" class="form-control" value="${param.username}">
-            </div>
-
+            <div class="col-sm-4"><input type="text" name="username" id="username" class="form-control" value="${param.username}"></div>
+             <%
+                  if(errores != null && errores.containsKey("username")){
+                        out.println("<small class='alert alert-danger col-sm-4' style='color: red;'>"+ errores.get("username") + "</small>");
+                  }
+             %>
         </div>
-        <%
-        if(errores != null && errores.containsKey("username")){
-        out.println("<div class='row mb-3 alert alert-danger col-sm-4' style='color: red;'>"+ errores.get("username") + "</div>");
-        }
-        %>
+
         <div class="row mb-3">
             <label for="password" class="col-form-label col-sm-2">Password</label>
             <div class="col-sm-4"><input type="password" name="password" id="password" class="form-control"></div>

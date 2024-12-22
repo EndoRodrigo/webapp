@@ -93,7 +93,7 @@ public class FormServlet extends HttpServlet {
                 });
                 out.println("<p><a href=\"/webapp-form/index.jsp\">volver</a></p>");*/
             req.setAttribute("errores", errores);
-            getServletContext().getRequestDispatcher("/index.jsp").forward(req, resp);
+            getServletContext().getRequestDispatcher("/formulario.jsp").forward(req, resp);
         }
 
     }

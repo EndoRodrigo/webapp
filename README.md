@@ -1,4 +1,4 @@
-# Guía de Instalación: Java y Tomcat
+# Guía de Instalación: Java y Tomcat.
 
 Este repositorio requiere que tengas instalado Java y Apache Tomcat para poder ejecutarlo correctamente. A continuación te explicamos cómo instalar ambos en tu sistema.
 

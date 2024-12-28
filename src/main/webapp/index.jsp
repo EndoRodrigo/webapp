@@ -15,6 +15,10 @@
     <li>
         <a href="/webapp/formulario.jsp">Ir al formualario</a>
     </li>
+    <li>
+            <a href="/webapp/iniciosesion.html">Ir al login</a>
+        </li>
+
     </ul>
 </body>
 </html>
